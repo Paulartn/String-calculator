@@ -4,9 +4,9 @@ Testcases:
 
 „1“ => 1    // done
 
-„1,2“ => 3  // In Progress
+„1,2“ => 3  // done
 
-"1,27" => 28
+"1,27" => 28    // In Progress
 
 "15,17,21" => 53
 
