@@ -18,4 +18,8 @@ describe('String Calculator', function() {
 	it('should return sum of 2 numbers', function() {
 		expect(calculator.add('1,27')).toEqual(28);
 	});
+
+	it('should return sum of 3 numbers', function() {
+		expect(calculator.add('15,17,21')).toEqual(53);
+	});
 });
