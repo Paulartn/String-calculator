@@ -1,6 +1,6 @@
 Testcases:
 
-„“ => 0     //in progress
+„“ => 0     //in progress!
 
 „1“ => 1
 
