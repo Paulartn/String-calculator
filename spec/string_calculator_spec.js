@@ -10,4 +10,8 @@ describe('String Calculator', function() {
 	it('should return number for single number string', function() {
 		expect(calculator.add('1')).toEqual(1);
 	});
+
+	it('should return sum of 2 numbers', function() {
+		expect(calculator.add('1,2')).toEqual(3);
+	});
 });
