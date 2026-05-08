@@ -30,4 +30,8 @@ describe('String Calculator', function() {
 	it('should return sum of multiple numbers', function() {
 		expect(calculator.add('1,10,100,1000,10000')).toEqual(11111);
 	});
+
+	it('should ignore input of characters', function() {
+		expect(calculator.add('1,A,')).toEqual(1);
+	});
 });
